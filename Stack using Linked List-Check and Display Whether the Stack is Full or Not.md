@@ -29,8 +29,31 @@ To write a Python program that:
    - Otherwise, print "Stack is not full".
 
 ## 📝 Program
-Add Code here
+```
+from queue import LifoQueue
+
+stack = LifoQueue(maxsize=8)
+
+stack.put('Snack_1')
+stack.put('Snack_2')
+stack.put('Snack_3')
+stack.put('Snack_4')
+stack.put('Snack_5')
+
+print("Present quantity of snacks in the jar: ",stack.qsize(), end=" Snacks")
+print("\nIs the jar full? ", stack.full())
+
+print('\nAfter sales:')
+print(stack.get())
+print(stack.get())
+print(stack.get())
+
+print("\nIs the jar empty? ", stack.empty())
+print("Current quantity of snacks in the jar: ", stack.qsize(), end=" Snacks")
+```
 
 ## Sample Input & Output
+![image](https://github.com/user-attachments/assets/e0b7a4d8-6cd5-4193-8f01-c65a1198f528)
 
 ## Result
+Thus,the program is executed successfully
