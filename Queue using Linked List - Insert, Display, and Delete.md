@@ -32,24 +32,24 @@ To write a Python program that:
 
 ## Program
 ```
-stack = []
+queue = []
 
-stack.append('a')
-stack.append('b')
-stack.append('c')
+queue.append('a')
+queue.append('b')
+queue.append('c')
 
-print("Stack after elements are pushed:")
-print(stack)
+print("Queue after elements are inserted:")
+print(queue)
 
-print("Deleting the last element inserted:")
-print(stack.pop())
+print("Deleting the first element inserted:")
+print(queue.pop(0))
 
-print("Stack after elements are popped:")
-print(stack)
+print("Queue after the first elements is deleted:")
+print(queue)
 ```
 
 ## Output
-![image](https://github.com/user-attachments/assets/f65cb2b0-6654-4115-b3c9-d985efe9b7a4)
+![image](https://github.com/user-attachments/assets/08a0b0c0-84af-4035-9502-e0c3e8f5ecbd)
 
 ## Result
 Thus,the program is executed successfully
